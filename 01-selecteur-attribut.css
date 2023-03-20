@@ -1,0 +1,19 @@
+
+a[title]{
+    background-color: burlywood;
+}
+button[title="click me"]{
+    border:none;
+}
+button:not([title]){
+    padding:2em;
+}
+a[href$="pdf"]{
+    color: brown;
+}
+a[href$="png"]{
+    color:rgb(228, 17, 49);
+}
+a[href^="http"]{
+    text-decoration:chartreuse;
+}
